@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom-Property</title>
+    <style>
+        :root{
+            --main-color: blueviolet;
+            --background: yellow;
+        }
+        h1{
+            color: var(--main-color);
+        }
+        p{
+            background-color: var(--background);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>I am practising custom property</h1>
+        <h2>Awesome Var</h2>
+    </header>
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, quasi!</p>
+    </main>
+    <footer>
+        <small>copyright</small>
+    </footer>
+</body>
+</html>
